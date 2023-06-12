@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Remove BG",
+  "version": "1.0.1",
+  "description": "Remove background from images.",
+  "author": "eliaquin.araujo@sasi.com.br",
+  "content_scripts": [
+    {
+      "css": ["css/style.css"],
+      "js": ["js/main.js"],
+      "matches": [
+        "*://*.bubble.io/page*",
+        "*://*.bubble.is/page*",
+        "*://*.bubble.com/page*"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}

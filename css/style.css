@@ -1,0 +1,146 @@
+.custom-button {
+    max-width: 180px;
+    border: 1px solid #e5e9ee;
+    border-radius: 3px;
+    padding: 4px 15px;
+    background: #F8F9FA;
+    cursor: pointer;
+}
+
+.custom-button:active {
+    background: #e5e9ee;
+}
+
+.container-wrapper {
+    display: flex;
+    min-width: 980px;
+}
+
+.container-wrapper .container-left label {
+    font-weight: 600;
+}
+
+.container-left {
+    width: 350px;
+    padding: 20px;
+    background: #fcfcfc;
+}
+
+.container-left .input-field {
+    margin: 5px 0;
+    height: 30px;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #c4c1c1;
+    font-weight: normal;
+    width: 100%;
+}
+
+.container-left .input-field label {
+    display: block;
+    height: 100%;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: normal;
+    color: #868686;
+}
+
+.details ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.details ul li {
+    height: 55px;
+    background: transparent;
+    border-top: 1px solid #c4c1c1;
+}
+
+.details ul li span {
+    font-weight: 600;
+}
+
+.details ul li p {
+    margin: 5px 0;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container-right label {
+    font-weight: 600;
+}
+
+.container-right img {
+    border-radius: 3px;
+    margin: 5px 0;
+    width: 500px;
+}
+
+.btn-image {
+    margin-top: 10px;
+}
+
+.main-tab-bar:not(.butter) .tab.tabs-10-1 {
+    padding-left: 0px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.main-tab-bar:not(.butter) .tab.tabs-10-1 svg {
+    width: 24px;
+    height: 30px;
+}
+
+.main-tab-bar:not(.butter) .tab.tabs-10-1 svg:not([fill]) {
+    color: #868686;
+}
+
+.tab-title {
+    padding: 30px 0 10px 30px;
+    font-family: open sans, Helvetica, Arial, sans-serif;
+    color: #000;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+}
+
+.tab-title .title {
+    float: left;
+    font-size: 20px;
+    font-family: open sans, Helvetica, Arial, sans-serif;
+}
+
+.tab-title .remove-editor {
+    clear: both;
+    margin-top: 30px;
+}
+
+.tab-title .remove-editor .editor {
+    width: 500px;
+    padding-right: 0;
+    border-top: 1px solid #f5f5f5;
+}
+
+.preview-image {
+    margin-top: 5px;
+}
+
+.preview-image label {
+    font-weight: 600;
+}
+
+.preview-image .original-image {
+    margin-top: 5px;
+}
+
+.preview-image .original-image img {
+    width: 100%;
+    border-radius: 3px;
+}
